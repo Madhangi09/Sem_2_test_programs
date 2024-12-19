@@ -8,7 +8,7 @@ while count<=n:
     print(next_number,end=" ")
     count+=1
     num1, num2=num2, next_number
-    next_number=num1,num2
+    next_number=num1+num2
 print()
 
 #2odd or even
